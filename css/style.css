@@ -1,0 +1,36 @@
+html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: "Faster One", cursive;
+}
+
+/* header styles */
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  width: 20%;
+  height: 20%;
+  margin: 30px;
+}
