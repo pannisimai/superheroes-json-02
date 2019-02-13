@@ -4,11 +4,7 @@ html {
 
 body {
   margin: 0 auto;
-}
-
-h1,
-h2 {
-  font-family: "Faster One", cursive;
+  background: linear-gradient(#e66465, #9198e5);
 }
 
 /* header styles */
@@ -16,6 +12,12 @@ h2 {
 h1 {
   font-size: 4rem;
   text-align: center;
+  font-family: "Faster One", cursive;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
 }
 
 header p {
@@ -31,6 +33,11 @@ section {
 
 div {
   width: 20%;
-  height: 20%;
-  margin: 30px;
+  height: 450px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #fffff0;
 }

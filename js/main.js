@@ -15,6 +15,7 @@ request.onload = function() {
   showHeroes(superHeroes);
 };
 
+//mapping
 function showHeroes(heroes) {
   const content = heroes
     .map(function(hero) {
@@ -25,17 +26,19 @@ function showHeroes(heroes) {
         first_appearance,
         characters
       } = hero;
-      const charArr = characters.split(",");
-      const charList = charArr.map(character => `<li>${character}</li>`);
+      const charArr = characters.split(","); // character string -> array
+      const charList = charArr.map(character => `<li>${character}</li>`); //
 
       const charReverse = charList.join("");
       console.log(charReverse);
       return `
       <div> 
-    <p>Name: ${superhero}</p>
+    <h2 class="name">${superhero}</h2>
+    <hr>
     <p>Created by: ${publisher}</p>
     <p>Alterego: ${alter_ego}</p>
-    <p>First appearance: ${first_appearance}</p>
+    <p>First appearance: ${first_appearance}</p> 
+    <hr>
     <p>Characters: <ul>${charReverse}</ul></p>
       </div>`;
     })
